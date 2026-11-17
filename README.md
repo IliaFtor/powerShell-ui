@@ -1,5 +1,11 @@
 # Настройка красивого и удобного терминала PowerShell (для чайников)
 
+
+<img width="1915" height="1013" alt="image" src="https://github.com/user-attachments/assets/f15e86ce-ba7f-4a7f-862c-1a19a71c622d" />
+
+<img width="1917" height="968" alt="image" src="https://github.com/user-attachments/assets/01056164-52f4-4c68-b7b5-12bc2d979105" />
+
+
 Эта инструкция превратит стандартный синий/черный PowerShell в быстрый, красивый терминал с иконками, подсветкой, умным поиском и меню быстрого подключения к SSH-серверам.
 
 ---
