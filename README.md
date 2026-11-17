@@ -14,23 +14,29 @@
 
 Откройте **PowerShell** (лучше от имени Администратора) и по очереди (или всё сразу) вставьте следующие команды:
 
-```powershell
+
 # Красивая строка приглашения (Starship)
+```powershell
 winget install --id Starship.Starship -e
-
+```
 # Умный переход по папкам (замена cd)
+```powershell
 winget install --id ajeetdsouza.zoxide -e
-
+```
 # Интерактивный поиск по истории и меню для SSH (fzf)
+```powershell
 winget install --id junegunn.fzf -e
-
+```
 # Красивый вывод файлов и папок с иконками (замена ls)
+```powershell
 winget install --id eza-community.eza -e
-
+```
 # Просмотр файлов с подсветкой кода (замена cat)
+```powershell
 winget install --id sharkdp.bat -e
-
+```
 # Шрифт с иконками (обязательно, иначе вместо иконок будут квадратики!)
+```powershell
 winget install --id DEVCOM.JetBrainsMonoNerdFont -e
 ```
 
@@ -38,6 +44,8 @@ winget install --id DEVCOM.JetBrainsMonoNerdFont -e
 Выполните в том же окне (на запрос подтверждения нажимайте `Y` и `Enter`):
 ```powershell
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+```
+```powershell
 Install-Module -Name PSFzf -Repository PSGallery -Force
 ```
 
@@ -60,6 +68,8 @@ Install-Module -Name PSFzf -Repository PSGallery -Force
 1. Создайте папку для конфига и откройте файл настроек в Блокноте (или VS Code):
    ```powershell
    New-Item -ItemType Directory "$HOME\.config" -Force
+   ```
+   ```powershell
    notepad "$HOME\.config\starship.toml"
    ```
    *(Физически файл создастся по пути `C:\Users\<Твоё_Имя>\.config\starship.toml`)*.
